@@ -1,16 +1,36 @@
-# React + Vite
+# Image App - React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación frontend para autenticación y subida de imágenes conectada a una API desarrollada con NestJS.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologías
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React
+- Vite
+- Axios
+- JavaScript
 
-## React Compiler
+## ✨ Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Login de usuario
+- Almacenamiento de JWT en localStorage
+- Subida de imágenes
+- Conexión con backend NestJS
+- Consumo de API REST
 
-## Expanding the ESLint configuration
+## 🛠 Instalación
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
+
+## 🌐 Backend
+
+Este proyecto se conecta al backend:
+
+`http://localhost:3000`
+
+## 📦 Estructura
+
+- `App.jsx` → login y upload
+- `api.js` → configuración de Axios
